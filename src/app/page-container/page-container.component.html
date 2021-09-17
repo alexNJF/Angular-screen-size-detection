@@ -1,0 +1,6 @@
+<ng-container *ngIf="viewMode=='Desktop'">
+  <ng-template [ngTemplateOutlet]="desktopRef"></ng-template>
+</ng-container>
+<ng-container *ngIf="viewMode=='Mobile'">
+  <ng-template [ngTemplateOutlet]="mobileRef"></ng-template>
+</ng-container>
